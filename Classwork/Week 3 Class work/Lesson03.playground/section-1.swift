@@ -3,6 +3,7 @@
 import Foundation
 
 // TODO: Create two variables, name and age. Name is a string, age is an integer.
+<<<<<<< HEAD:Classwork/Week 3 Class work/Lesson03.playground/section-1.swift
 
 let stringage = 28
 
@@ -14,6 +15,9 @@ let name = "Devin"
 
 
 
+=======
+`
+>>>>>>> 33c9df1da2fbbfaf6000298c4976d3fe0f9673b4:Lessons/Lesson 03/Lesson03.playground/section-1.swift
 // TODO: Print "Hello {whatever the value of name is}, you are {whatever the value of age is} years old!"
 
 println("Hello {Devin}, you are {28} years old")
