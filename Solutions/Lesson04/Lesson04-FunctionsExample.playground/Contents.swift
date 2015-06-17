@@ -11,7 +11,7 @@ mySimpleFunction()
 
 // Function named turtle that takes one parameter of type Int
 func turtle(number: Int) {
-    
+
     for i in 1...number {
         println(i)
     }
