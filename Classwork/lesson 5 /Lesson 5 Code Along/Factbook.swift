@@ -2,13 +2,13 @@
 //  Factbook.swift
 //  Lesson 5 Code Along
 //
-//  Created by Devin Cummins on 6/17/15.
+//  Created by LOANER on 6/17/15.
 //  Copyright (c) 2015 Thomas Degry. All rights reserved.
 //
 
 import Foundation
 
-struct factbook {
+struct Factbook {
     let factsArray = [
         "Ants stretch when they wake up in the morning.",
         "Ostriches can run faster than horses.",
@@ -20,4 +20,11 @@ struct factbook {
         "Some penguins can leap 2-3 meters out of the water.",
         "On average, it takes 66 days to form a new habit.",
         "Mammoths still walked the earth when the Great Pyramid was being built."]
-
+    
+    func randomFact() -> String {
+        var arrayCount = UInt32(factsArray.count)
+        var randomNumber = Int(arc4random_uniform(arrayCount))
+        
+        return factsArray[randomNumber]
+    }
+}

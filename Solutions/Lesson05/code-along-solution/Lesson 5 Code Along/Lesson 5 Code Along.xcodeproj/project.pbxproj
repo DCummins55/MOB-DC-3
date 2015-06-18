@@ -14,7 +14,7 @@
 		2E85C10E1B3210C400A1F47F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E85C10C1B3210C400A1F47F /* LaunchScreen.xib */; };
 		2E85C11A1B3210C500A1F47F /* Lesson_5_Code_AlongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85C1191B3210C500A1F47F /* Lesson_5_Code_AlongTests.swift */; };
 		2E85C1261B32144300A1F47F /* Factbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85C1251B32144300A1F47F /* Factbook.swift */; };
-		2E85C1281B32152100A1F47F /* Colorwheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85C1271B32152100A1F47F /* Colorwheel.swift */; };
+		4F59AAC11B3375C900E07684 /* Colorwheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85C1271B32152100A1F47F /* Colorwheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,7 +221,7 @@
 				2E85C1061B3210C400A1F47F /* ViewController.swift in Sources */,
 				2E85C1041B3210C400A1F47F /* AppDelegate.swift in Sources */,
 				2E85C1261B32144300A1F47F /* Factbook.swift in Sources */,
-				2E85C1281B32152100A1F47F /* Colorwheel.swift in Sources */,
+				4F59AAC11B3375C900E07684 /* Colorwheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +419,7 @@
 				2E85C11F1B3210C500A1F47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E85C1201B3210C500A1F47F /* Build configuration list for PBXNativeTarget "Lesson 5 Code AlongTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				2E85C1221B3210C500A1F47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

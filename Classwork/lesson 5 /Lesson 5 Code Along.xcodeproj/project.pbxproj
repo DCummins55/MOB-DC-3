@@ -14,6 +14,7 @@
 		2E85C10E1B3210C400A1F47F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E85C10C1B3210C400A1F47F /* LaunchScreen.xib */; };
 		2E85C11A1B3210C500A1F47F /* Lesson_5_Code_AlongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85C1191B3210C500A1F47F /* Lesson_5_Code_AlongTests.swift */; };
 		4F0EE3F91B32505900EC3B57 /* Factbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EE3F81B32505900EC3B57 /* Factbook.swift */; };
+		4F59AAC21B3375DC00E07684 /* Colorwheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98CBE31B32678500AABDA1 /* Colorwheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2E85C1181B3210C500A1F47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E85C1191B3210C500A1F47F /* Lesson_5_Code_AlongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_5_Code_AlongTests.swift; sourceTree = "<group>"; };
 		4F0EE3F81B32505900EC3B57 /* Factbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factbook.swift; sourceTree = "<group>"; };
+		4F98CBE31B32678500AABDA1 /* Colorwheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colorwheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +83,9 @@
 			children = (
 				2E85C1031B3210C400A1F47F /* AppDelegate.swift */,
 				2E85C1051B3210C400A1F47F /* ViewController.swift */,
-				2E85C1071B3210C400A1F47F /* Main.storyboard */,
 				4F0EE3F81B32505900EC3B57 /* Factbook.swift */,
+				4F98CBE31B32678500AABDA1 /* Colorwheel.swift */,
+				2E85C1071B3210C400A1F47F /* Main.storyboard */,
 				2E85C10A1B3210C400A1F47F /* Images.xcassets */,
 				2E85C10C1B3210C400A1F47F /* LaunchScreen.xib */,
 				2E85C1011B3210C400A1F47F /* Supporting Files */,
@@ -218,6 +221,7 @@
 				2E85C1061B3210C400A1F47F /* ViewController.swift in Sources */,
 				2E85C1041B3210C400A1F47F /* AppDelegate.swift in Sources */,
 				4F0EE3F91B32505900EC3B57 /* Factbook.swift in Sources */,
+				4F59AAC21B3375DC00E07684 /* Colorwheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

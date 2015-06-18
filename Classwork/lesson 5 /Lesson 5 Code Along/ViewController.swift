@@ -9,25 +9,29 @@
 import UIKit
 
 class ViewController: UIViewController {
+
+    @IBOutlet weak var factLabel: UILabel!
+    @IBOutlet weak var factButton: UIButton!
+    @IBOutlet weak var starButton: UIButton!
     
-    @IBOutlet weak var factlabel: UILabel!
-    @IBOutlet weak var generateButton: UIButton!
- var numberoftimes = 0
+    var factBook = Factbook()
+    var colorWheel = Colorwheel()
+    var favoriteFact: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        factlabel.text = "Hello"
-        
+        generateFact(factButton)
     }
-    
-    @IBAction func generatebutton(sender: UIButton) {
-    }
-    
-   
+
+    @IBAction func generateFact(sender: UIButton) {
+        let newFact = factBook.randomFact()
+        factLabel.text = newFact
         
+        let randomColor = colorWheel.randomColor()
+        view.backgroundColor = randomColor
         
-        
+        factButton.setTitleColor(randomColor, forState: UIControlState.Normal)
     }
 }
 
