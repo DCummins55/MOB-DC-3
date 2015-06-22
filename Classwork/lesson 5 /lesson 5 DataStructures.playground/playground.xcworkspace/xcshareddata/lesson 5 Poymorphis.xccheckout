@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>47A23CE3-DDD6-4125-BC9C-5DE3E9AE370A</string>
+	<string>0B06E743-562A-4C70-A1C8-D5A9395B610F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>playground</string>
+	<string>lesson 5 Poymorphis</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/DCummins55/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson05/Lesson05-DataStructures4~.playground/playground.xcworkspace</string>
+	<string>Classwork/lesson 5 /lesson 5 Poymorphis.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/DCummins55/MOB-DC-3.git</string>

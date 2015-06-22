@@ -25,9 +25,6 @@ var myCar = Car()
 
 println(myCar.wheels)
 
-println(myCar.door)
-
-myCar.name = "BMW"
-println(myCar.name)
+println()
 
 
