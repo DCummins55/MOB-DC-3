@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>1DB00683-25F5-41D5-B633-856C55415D29</string>
 	<key>IDESourceControlProjectName</key>
-	<string>playground</string>
+	<string>Lesson04-FunctionsExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/DCummins55/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson04/Lesson04-FunctionsExample.playground/playground.xcworkspace</string>
+	<string>Solutions/Lesson04/Lesson04-FunctionsExample.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/DCummins55/MOB-DC-3.git</string>

@@ -17,6 +17,8 @@ class ProfileViewController: UIViewController
 
     @IBOutlet weak var nameLabel: UILabel!
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

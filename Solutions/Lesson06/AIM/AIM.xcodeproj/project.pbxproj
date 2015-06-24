@@ -417,6 +417,7 @@
 				8E25D7291B38D4900008CBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E25D72A1B38D4900008CBDB /* Build configuration list for PBXNativeTarget "AIMTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				8E25D72C1B38D4900008CBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

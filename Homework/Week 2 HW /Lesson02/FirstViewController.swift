@@ -9,7 +9,70 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    
+    @IBOutlet weak var generatebutton: UIButton!
+    @IBOutlet weak var textGoesHere: UILabel!
+  
+
+    
+    //func setupButton () {
+      //  generatebutton.targetForAction(UILabel, withSender: UIButton)
+        
+  //  }
+    
+    
+func setupbutton() {
+    generatebutton.setTitle("Hello World", forState: UILabel.normal)
+    
+}
+    
+    
+
+    @IBOutlet weak var namefield: UITextField!
+    @IBOutlet weak var ageField: UITextField!
+    
+    
+    func setupTextFields() {
+        namefield.placeholder = "Name"
+        ageField.placeholder = "Age"
+        
+        println("Hello \(namefield), you are \(ageField) years old")
+        
+    }
+    
+    func whatYouCanDo ()  {
+        if ageField > 21 {
+            println("You can drink.")
+        } else if ageField > 18 {
+            println("You can vote.")
+        } else if ageField > 16 {
+            println("You can drive.")
+            
+    }
+
+
+
+
+
+
+    
     /*
+
+func setupTextFields() {
+nameField.placeholder = "Name"
+ageField.placeholder = "Age"
+sexField.placeholder = "Sex"
+locationField.placeholder = "Location"
+
+formatTextField(nameField)
+formatTextField(ageField)
+formatTextField(sexField)
+formatTextField(locationField)
+
+submitButton.setTitle("Submit", forState: UIControlState.Normal)
+
+
     TODO one: hook up a button in interface builder to a new function (to be written) in this class. Also hook up the label to this class. When the button is clicked, the function to be written must make a label say ‘hello world!’
     
     TODO two: Connect the ‘name’ and ‘age’ text boxes to this class. Hook up the button to a NEW function (in addition to the function previously defined). That function must look at the string entered in the text box and print out “Hello {name}, you are {age} years old!”
