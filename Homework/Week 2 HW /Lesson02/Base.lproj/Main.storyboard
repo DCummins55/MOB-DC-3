@@ -91,10 +91,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="ageField" destination="HD3-Of-BAd" id="wXx-dI-YTP"/>
-                        <outlet property="namefield" destination="dvu-Gz-gU3" id="crL-oL-k5y"/>
-                        <outlet property="textGoesHere" destination="v2W-sh-fBn" id="nZm-tP-t5h"/>
-                        <outletCollection property="textGoesHere" destination="v2W-sh-fBn" collectionClass="NSMutableArray" id="ERE-TX-wqo"/>
+                        <outlet property="generateTextButton" destination="vvU-j8-0it" id="xYU-hx-4Hb"/>
+                        <outlet property="texGoesHere" destination="v2W-sh-fBn" id="BsZ-Qz-9LY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

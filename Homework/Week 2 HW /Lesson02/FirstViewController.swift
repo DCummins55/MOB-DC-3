@@ -10,55 +10,17 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    
-    @IBOutlet weak var generatebutton: UIButton!
-    @IBOutlet weak var textGoesHere: UILabel!
-  
-
-    
-    //func setupButton () {
-      //  generatebutton.targetForAction(UILabel, withSender: UIButton)
-        
-  //  }
+ @IBOutlet weak var generateTextButton: UIButton!
+    @IBOutlet weak var texGoesHere: UILabel!
     
     
-func setupbutton() {
-    generatebutton.setTitle("Hello World", forState: UILabel.normal)
-    
-}
     
     
-
-    @IBOutlet weak var namefield: UITextField!
-    @IBOutlet weak var ageField: UITextField!
-    
-    
-    func setupTextFields() {
-        namefield.placeholder = "Name"
-        ageField.placeholder = "Age"
-        
-        println("Hello \(namefield), you are \(ageField) years old")
-        
-    }
-    
-    func whatYouCanDo ()  {
-        if ageField > 21 {
-            println("You can drink.")
-        } else if ageField > 18 {
-            println("You can vote.")
-        } else if ageField > 16 {
-            println("You can drive.")
-            
-    }
-
-
-
-
-
-
     
     /*
 
+    
+    
 func setupTextFields() {
 nameField.placeholder = "Name"
 ageField.placeholder = "Age"

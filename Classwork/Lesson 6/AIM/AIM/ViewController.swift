@@ -56,15 +56,30 @@ class ViewController: UIViewController
     
     func setupButtons() {
         clearbutton.setTitle("Clear", forState: UIControlState.Normal)
-        submitbutton.setTitle("submit", forState: UIControlState.Normal)
+        submitbutton.setTitle("Submit", forState: UIControlState.Normal)
         
         
         
     }
     
-       @IBAction func submitAction(sender: UIButton) {
+  
+    @IBAction func clearAction(sender: UIButton) {
+       nameField.text = ""
+        ageField.text = ""
+        sexfield.text = ""
+        locationField.text = ""
+        
+        
+        
+        
         
     }
+    @IBAction func submitActions(sender: UIButton) {
+    }
+
+        
+    
+   
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         println("prepare for seque")
