@@ -50,7 +50,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder text, replace me!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2W-sh-fBn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here we go!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2W-sh-fBn">
                                 <rect key="frame" x="138" y="249" width="325" height="101"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="325" id="0YK-KA-gJL"/>
@@ -69,6 +69,9 @@
                                 <state key="normal" title="Generate text!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="generateButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FFY-iR-1z6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -91,8 +94,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="generateTextButton" destination="vvU-j8-0it" id="xYU-hx-4Hb"/>
-                        <outlet property="texGoesHere" destination="v2W-sh-fBn" id="BsZ-Qz-9LY"/>
+                        <outlet property="ageField" destination="HD3-Of-BAd" id="4f3-Sa-jgN"/>
+                        <outlet property="nameField" destination="dvu-Gz-gU3" id="70S-8Q-6eC"/>
+                        <outlet property="textGoesHere" destination="v2W-sh-fBn" id="8tN-fn-45H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -139,6 +143,9 @@
                                 <state key="normal" title="Add">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addButton:" destination="DXI-gN-4Tg" eventType="touchUpInside" id="1v4-Ql-kj2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -158,6 +165,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="numberField" destination="dsS-73-FSq" id="oOK-ww-oxz"/>
+                        <outlet property="resultLabel" destination="qiz-6d-s2d" id="f7O-JV-LuF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFb-9H-Aa6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -203,6 +214,9 @@
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateButton:" destination="nKH-F5-XzW" eventType="touchUpInside" id="5qh-LQ-4Vf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -222,6 +236,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="numberField" destination="UJA-B5-7Cz" id="MdU-EO-hNM"/>
+                        <outlet property="resultLabel" destination="y0y-Zz-8RE" id="Iry-DG-HdT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bic-8V-fDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
