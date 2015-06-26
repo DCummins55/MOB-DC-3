@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>96E965DF-ECA2-43B4-A251-5F873778FEFE</string>
+	<string>048F81AB-BA9B-41B9-8C0C-9AA75FBB4949</string>
 	<key>IDESourceControlProjectName</key>
-	<string>InClassActivity_02</string>
+	<string>Lesson04-Optionals</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/DCummins55/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson04/Functiosn playgrounds/InClassActivity_02.playground</string>
+	<string>Solutions/Lesson04/Lesson04-Optionals.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/DCummins55/MOB-DC-3.git</string>
