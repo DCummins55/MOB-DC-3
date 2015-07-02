@@ -232,7 +232,7 @@
                     <navigationItem key="navigationItem" id="MSB-HX-b5c">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="2QZ-gn-Ycc">
                             <connections>
-                                <segue destination="BPG-Q0-b6p" kind="show" id="kqV-v5-cjm"/>
+                                <segue destination="BPG-Q0-b6p" kind="show" id="AXY-J6-jbP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -248,6 +248,7 @@
         <!--Fourth View Controller-->
         <scene sceneID="aee-Lw-ved">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LL4-Hq-ZaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="BPG-Q0-b6p" customClass="FourthViewController" customModule="Lesson02" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="b0M-zp-Xf6"/>
@@ -276,7 +277,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="calculateButton:" destination="BPG-Q0-b6p" eventType="touchUpInside" id="EdV-lD-wNP"/>
+                                    <action selector="calculateButton:" destination="BPG-Q0-b6p" eventType="touchUpInside" id="5Df-ul-uIl"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should print the xth fibonacci number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-q1-6qc">
@@ -301,12 +302,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button" destination="uuM-Ik-raV" id="Dq1-g4-wU8"/>
-                        <outlet property="numberField" destination="Y9T-1j-GS4" id="X65-YJ-QbU"/>
-                        <outlet property="printButton" destination="Hpk-q1-6qc" id="OdL-TF-pKI"/>
+                        <outlet property="button" destination="uuM-Ik-raV" id="uoG-bI-TTk"/>
+                        <outlet property="numberField" destination="Y9T-1j-GS4" id="b0Z-NS-lLz"/>
+                        <outlet property="solutionLabel" destination="Hpk-q1-6qc" id="o2q-no-Woh"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LL4-Hq-ZaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2738" y="-292"/>
         </scene>

@@ -12,8 +12,25 @@ class FibonacciAdder {
     
     
     func numberAtIndex(number: Int) -> Int {
-        
-        var retvar: Int = 0
-        
-    }
+
+        var retVal: Int = 0
+        if number >= 0 {
+            if number == 0 {
+                retVal = 0
+            } else if number == 1 {
+                retVal = 1
+            } else {
+                for i in 2...number {
+                    retVal = numberAtIndex(i-1) + numberAtIndex(i-2)
+                }
+                
+                    
+                }
+                
+            }
+            
+                return retVal
+            }
 }
+
+
