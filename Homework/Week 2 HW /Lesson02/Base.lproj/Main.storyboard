@@ -301,6 +301,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button" destination="uuM-Ik-raV" id="Dq1-g4-wU8"/>
                         <outlet property="numberField" destination="Y9T-1j-GS4" id="X65-YJ-QbU"/>
                         <outlet property="printButton" destination="Hpk-q1-6qc" id="OdL-TF-pKI"/>
                     </connections>
