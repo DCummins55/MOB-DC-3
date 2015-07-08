@@ -10,7 +10,7 @@ import UIKit
 
 
 
-protocol AddStudentDelegate {
+protocol StudentDelegate {
     
     func addStudent(name: String)
     
@@ -18,6 +18,8 @@ protocol AddStudentDelegate {
 
 class AddViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
+    
+    var delegate: StudentDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()

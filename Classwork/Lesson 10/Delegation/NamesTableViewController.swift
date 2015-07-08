@@ -30,8 +30,8 @@ class NamesTableViewController: UITableViewController, AddStudentDelegate {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showAddStudents" {
-            let destinationVC = segue.destinationViewController as! AddViewController
-            destinationVC.delegate = self
+            let destinationVC = segue. as! AddViewController
+            destinationVC.delegate = self 
             
             
         }

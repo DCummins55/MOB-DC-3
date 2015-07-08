@@ -13,16 +13,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
-        let swipe = UISwipeGestureRecognizer(target: self, action: "gestureAction")
-            swipe.direction = .Right
-        label.addGestureRecognizer(swipe)
-        label.userInteractionEnabled = true
+       
+        //        let swipe = UISwipeGestureRecognizer(target: self, action: "gestureAction")
+        //        swipe.direction = .Right
+        //        label.addGestureRecognizer(swipe)
+
+        let tap = UITapGestureRecognizer(target: self, action: "gestureAction")
+        tap.numberOfTapsRequired = 3
+        
+        view.addGestureRecognizer(tap)
         
         
-        
-        
-    
-        
+//        
+//        let tap = UITapGestureRecognizer(target: self, action: "gestureAction")
+//        
+//        tap.numberOfTouchesRequired = 3
+////        label.addGestureRecognizer(tap)
+////        label.userInteractionEnabled = true
+//        
+//        view.addGestureRecognizer(tap)
+//        
+
         
     }
     
