@@ -34,19 +34,18 @@ class MapViewController: UIViewController, UITextFieldDelegate, UITableViewDeleg
         tableView.dataSource = self
         
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: cellID)
-        
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyBoardShow", name: UIKeyboardWillShowNotification, object: nil)
-        
-    }
-    
-    func keyBoardShow(notification: NSNotification) {
-        
-
-        
+//        
+//        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyBoardShow", name: UIKeyboardWillShowNotification, object: nil)
+//        
+//    }
+//    
+//    func keyBoardShow(notification: NSNotification) {
     
 }
 
     func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        
         if textField == nameField {
             
             nameField.resignFirstResponder()
@@ -56,7 +55,7 @@ class MapViewController: UIViewController, UITextFieldDelegate, UITableViewDeleg
             
             array.append(["name": nameField.text, "location": valueField.text])
             
-              tableView.reloadData()
+            tableView.reloadData()
             
             nameField.text = ""
             valueField.text = ""
@@ -67,7 +66,6 @@ class MapViewController: UIViewController, UITextFieldDelegate, UITableViewDeleg
             
            }    
         return true
-        
         
         
     }
