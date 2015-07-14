@@ -44,7 +44,6 @@ class ArrayViewController: UIViewController, UITextFieldDelegate, UITableViewDel
         self.view.endEditing(true)
         
         array.append(self.field.text)
-        println(array)
         
         tableView.reloadData()
         

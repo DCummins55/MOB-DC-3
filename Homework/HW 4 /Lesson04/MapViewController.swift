@@ -34,6 +34,7 @@ class MapViewController: UIViewController, UITextFieldDelegate, UITableViewDeleg
         tableView.dataSource = self
         
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: cellID)
+        
 //        
 //        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyBoardShow", name: UIKeyboardWillShowNotification, object: nil)
 //        
@@ -64,9 +65,9 @@ class MapViewController: UIViewController, UITextFieldDelegate, UITableViewDeleg
         println("execute")
         
             
-           }    
-        return true
+           }
         
+        return true
         
     }
     
@@ -77,8 +78,9 @@ class MapViewController: UIViewController, UITextFieldDelegate, UITableViewDeleg
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cellID", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("cellIDx", forIndexPath: indexPath)
         as! UITableViewCell
+
         
         
 //        let cell = tableView.dequeueReusableCellWithIdentifier("cellID", forIndexPath) as! UITableViewCell
@@ -86,7 +88,6 @@ class MapViewController: UIViewController, UITextFieldDelegate, UITableViewDeleg
         let currentDict = array[indexPath.row]
         cell.textLabel?.text = currentDict["name"]
         cell.detailTextLabel?.text = currentDict["location"]
-        
         
         return cell
     }
